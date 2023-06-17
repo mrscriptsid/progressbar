@@ -1,39 +1,15 @@
 # Progressbar
 
-Dependency for creating progressbars in QB-Core.
+No Dependency.
 
 # Usage
-
-## QB-Core Functions
-
-### Client
-
-- QBCore.Functions.Progressbar(**name**: string, **label**: string, **duration**: number, **useWhileDead**: boolean, **canCancel**: boolean, **disableControls**: table, **animation**: table, **prop**: table, **propTwo**: table, **onFinish**: function, **onCancel**: function)
-  > Create a new progressbar from the built in qb-core functions.<br>
-  > **Example:**
-  > ```lua
-  >QBCore.Functions.Progressbar("random_task", "Doing something", 5000, false, true, {
-  >    disableMovement = false,
-  >    disableCarMovement = false,
-  >    disableMouse = false,
-  >    disableCombat = true,
-  >}, {
-  >    animDict = "mp_suicide",
-  >    anim = "pill",
-  >    flags = 49,
-  >}, {}, {}, function() -- Done
-  >    StopAnimTask(PlayerPedId(), "mp_suicide", "pill", 1.0)
-  >end, function() -- Cancel
-  >    StopAnimTask(PlayerPedId(), "mp_suicide", "pill", 1.0)
-  >end)
-  > ```
 
 ## Exports
 
 ### Client
 
 - Progress(**data**: string, **handler**: function)
-  > Creates a new progress bar directly from the export, always use the built in qb-core function if possible.<br>
+  > Creates a new progress bar directly from the export.<br>
   > **Example:**
   > ```lua
   >exports['progressbar']:Progress({
