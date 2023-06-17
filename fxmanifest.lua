@@ -2,8 +2,8 @@ fx_version 'cerulean'
 game 'gta5'
 
 author "qbcore-framework"
-description 'Dependency for creating progressbars in QB-Core.'
-version '1.0.0'
+description 'Progressbar based on mythic_progbar. (Edited by QBCore & MRScripts'
+version '1.1.0'
 
 ui_page "html/index.html"
 
