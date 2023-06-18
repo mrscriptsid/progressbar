@@ -1,6 +1,7 @@
 # Progressbar
 
 No Dependency.
+QB Progressbar edited by MRScrpts
 
 # Preview
 ![image](https://github.com/mrscriptsid/progressbar/assets/64629964/06cfd486-fbfa-4ec7-b361-28f02ba0c127)
